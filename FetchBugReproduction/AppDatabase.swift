@@ -71,7 +71,7 @@ public func appDatabase() throws -> any DatabaseWriter {
       try database.write { db in
         guard try Example.all.fetchOne(db) == nil else { return }
         try db.seed {
-          Example(id: 0, title: "This query is showing data")
+          Example(id: 0, title: "SharingGRDB is working")
         }
       }
 
