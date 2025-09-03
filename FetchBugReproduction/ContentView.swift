@@ -1,7 +1,7 @@
-// TODO: Accessibility pass
-
 import SharingGRDB
 import SwiftUI
+
+
 
 struct ContentView: View {
   @State private var hasTapped: Bool = false

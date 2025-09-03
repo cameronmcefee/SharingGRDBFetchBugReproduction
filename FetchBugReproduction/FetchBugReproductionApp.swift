@@ -1,5 +1,3 @@
-// TODO: Accessibility pass
-
 import ComposableArchitecture
 import SharingGRDB
 import SwiftUI
